@@ -1,12 +1,24 @@
-## Hi there 👋
+# 基于大语言模型的电话应答系统
 
-<!--
+这是我们在完成HIT2023~2024学年大创时使用的代码仓库。
 
-**Here are some ideas to get you started:**
+我们的最终目标是完成一个可以在Android设备上对于呼入通话进行自动应答的实用程序。
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## TODO
+
+我们的系统将由以下部分组成：
+
+### 前端（安卓应用程序）
+
+- 对于最终版本的期望是能在电话呼入时完成自动应答功能
+- 可以先实现一个简单版本，实现在本地语音输入下的自动应答
+- 涉及安卓开发、录音、语音识别与文字转语音。
+
+### 模型
+
+- 可能是最先进的部分，但不一定是最难做的部分
+- 可以用现成的模型，目前计划是ChatGLM3-6B(自行部署)，或者考虑越来越多的各种AI开放平台。
+
+### 后端
+
+- 后端主要用来实现登录、账户这些功能，还要在手机和模型之间搭桥、完成数据传输等。
